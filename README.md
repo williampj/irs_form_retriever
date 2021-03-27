@@ -50,7 +50,7 @@ Alternatively, any file can import the `IRSFormDownloader` class from the `src/f
 To instantiate the `IRSFormDownloader`, call the `IRSFormDownloader.create` class method and pass pass the following arguments:
 `form`: string
 `starting year`: integer
-`ending year`(opt): integer.
+`ending year`(opt): integer
 
 The `form` argument is case insensitive, matching a lower cased version of the string with lower cased forms on the IRS homepage.
 When downloading files to a folder, the folder and file names are titleized, so for instance
